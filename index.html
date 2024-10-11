@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/script.js"></script>
+    <title>Atividade Fixação</title>
+</head>
+<body>
+    
+    <form action="" method="post" id="form">
+        <fieldset>
+            <legend style="text-transform: uppercase;">Cadastro</legend>
+            <label for="matricula">Matrícula</label>
+            <br>
+            <input type="number" min="0" name="matricula" id="matricula">
+            <br>
+            <br>
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <br>
+            <label for="dt_nasc">Data de Nascimento</label>
+            <br>
+            <input type="date" name="dt_nasc" id="dt_nasc">
+            <br>
+            <br>
+            <label for="curso">Curso</label>
+            <br>
+            <input type="text" name="curso" id="curso">
+            <br>
+            <br>
+            <label for="genero">Gênero</label>
+            <br>
+            <input type="text" name="genero" id="genero">
+            <br>
+            <br>
+            <input type="reset" value="Apagar">
+            <input type="button" onclick="CadastroArray()" value="Cadastrar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
